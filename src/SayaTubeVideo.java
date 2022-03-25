@@ -28,14 +28,14 @@ public class SayaTubeVideo { //1302204076
         System.out.println("Title : " + title);
         System.out.println("PlayCount : " + playCount);
     }
-//    public static void main(String[] args)
-//    {
-//        SayaTubeVideo a = new SayaTubeVideo("Tutorial Design By Contract – Afif Fajar Rayhan");
-//        a.PrintVideoDetails();
-//        for (int i = 0; i < 1; i++)
-//        {
-//            a.IncreasePlayCount(0);
-//        }
-//        a.PrintVideoDetails();
-//    }
+    public static void main(String[] args)
+    {
+        SayaTubeVideo a = new SayaTubeVideo("Tutorial Design By Contract – Afif Fajar Rayhan");
+        a.PrintVideoDetails();
+        for (int i = 0; i < 1; i++)
+        {
+            a.IncreasePlayCount(0);
+        }
+        a.PrintVideoDetails();
+    }
 }
